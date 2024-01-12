@@ -1,0 +1,9 @@
+metadata.format.version = "1.1"
+
+[versions]
+velocity = "3.2.0-SNAPSHOT"
+cron4j = "2.2.5"
+
+[libraries]
+velocity = { group = "com.velocitypowered", name = "velocity-api", version.ref = "velocity" }
+cron4j = { group = "it.sauronsoftware.cron4j", name = "cron4j", version.ref = "cron4j" }
